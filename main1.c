@@ -8,6 +8,9 @@ int main()
 {
     double xl, y;
     float s1, s2;
+    if (xl < 0.0) {
+	    printf("WARN! %.2f is negative!", xl);
+    }
     printf("Add x: ");
     scanf_s("%lf", &xl);
     s1 = log(xl) + ((2 + xl) / pow(xl, 2));
