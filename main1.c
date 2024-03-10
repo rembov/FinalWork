@@ -6,12 +6,12 @@
 #include <stdio.h>
 int main()
 {
-    double x, y;
+    double xl, y;
     float s1, s2;
     printf("Add x: ");
-    scanf_s("%lf", &x);
-    s1 = log(x) + ((2 + x) / pow(x, 2));
-    s2 = tan(x) - (1 / sqrt(pow(x, 2) + 10));
+    scanf_s("%lf", &xl);
+    s1 = log(xl) + ((2 + xl) / pow(xl, 2));
+    s2 = tan(xl) - (1 / sqrt(pow(xl, 2) + 10));
     y = s1 / s2;
     printf("%lf", y);
     getchar();
