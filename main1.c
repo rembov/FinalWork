@@ -6,8 +6,10 @@
 #include <stdio.h>
 int main()
 {
-    double xl; y;
-    float s1, s2;
+    double xl; // Переменная Х в уравнении
+    double y;// Ответ в уравнении
+    float s1;// Числитель
+    float s2;// Знаменатель
     printf("Add x: ");
     scanf_s("%lf", &xl);
     s1 = log(xl) + ((2 + xl) / pow(xl, 2));
