@@ -9,6 +9,8 @@ int main()
     double xl, y;
     float s1, s2;
     if (xl < 0.0) {
+	    // Если число отрицательное то выводится
+	    // предупреждение
 	    printf("WARN! %.2f is negative!", xl);
     }
     printf("Add x: ");
