@@ -6,7 +6,7 @@
 #include <stdio.h>
 int main()
 {
-    double xl, y;
+    double xl; y;
     float s1, s2;
     printf("Add x: ");
     scanf_s("%lf", &xl);
