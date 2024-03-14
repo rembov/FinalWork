@@ -25,7 +25,7 @@ int main()
     s1 = log(xl) + ((2 + xl) / pow(xl, 2));
     s2 = tan(xl) - (1 / sqrt(pow(xl, 2) + 10));
     y = s1 / s2;
-    printf("%lf", y);
+    printf("AAAAAAAAAA NEGRI %lf", y);
     getchar();
     return 0;
 }
