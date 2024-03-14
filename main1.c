@@ -23,9 +23,12 @@ int main()
     printf("Add x: ");
     scanf_s("%lf", &xl);
     s1 = log(xl) + ((2 + xl) / pow(xl, 2));
-    s2 = tan(xl) - (1 / sqrt(pow(xl, 2) + 10));
+
+    s2 = tan(xl) / 3;
+
     y = (s1 / s2)-x1;
     printf("AAAAAAAAAA NEGRI %lf", y);
+
     getchar();
     return 0;
 }
